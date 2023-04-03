@@ -32,4 +32,10 @@ int main() {
 	cin >> mhs.alamat.kota;
 	cout << "Masukkan umur: ";
 	cin >> mhs.umur;
+
+	cout << "\nNim : " << mhs.nim;
+	cout << "\nNama : " << mhs.nama;
+	cout << "\nDesa : " << mhs.alamat.desa;
+	cout << "\nKota : " << mhs.alamat.desa;
+
 }
